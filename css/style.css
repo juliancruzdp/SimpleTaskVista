@@ -15,10 +15,7 @@ h1{
     background-color: #ffffff !important;
 }
 
-.active {
-    background-color: #dbd9d7;
-    margin: 0px;
-}
+
 
 /*----------------------------------------------*/
 /* Nav Bar                                      */
@@ -57,6 +54,12 @@ nav {
 .navbar-light .navbar-nav .nav-link {
     color:#1d1d1d;
 }
+
+.active {
+    background-color: #dbd9d7;
+    margin: 0px;
+}
+
 /*----------------------------------------------*/
 /* lOGIN                                        */
 /*----------------------------------------------*/
