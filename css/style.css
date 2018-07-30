@@ -11,14 +11,33 @@ h1{
     color: #ffffff;
 }
 
+.bg-light {
+    background-color: #ffffff !important;
+}
+
+.active {
+    background-color: #dbd9d7;
+    margin: 0px;
+}
 
 /*----------------------------------------------*/
 /* Nav Bar                                      */
 /*----------------------------------------------*/
 
+nav {
+    background-color: #ffffff;
+}
 
-ul button{
+.btn-outline-success{
     background-color: #52a2da;
+    color: #ffffff;
+    float: right;
+    border: none;
+    cursor: pointer;
+    
+}
+.btn-outline-success:hover{
+    background-color: #2d5c99;
     color: #ffffff;
     float: right;
     border: none;
@@ -29,8 +48,15 @@ ul button{
     color: #ffffff;
 }
 
+.flex-container {
+  display: flex;
+  justify-content: center;
+  background-color: DodgerBlue;
+}
 
-
+.navbar-light .navbar-nav .nav-link {
+    color:#1d1d1d;
+}
 /*----------------------------------------------*/
 /* lOGIN                                        */
 /*----------------------------------------------*/
