@@ -125,3 +125,19 @@ nav {
 /*----------------------------------------------*/
 /* RECLAMOS                                        */
 /*----------------------------------------------*/
+
+.calendar{
+    float: left;
+}
+
+.boxInput input{
+    width: 80%;
+}
+
+.boxInputDos input{
+    width: 80%;
+}
+
+#separador{
+    border-right: 1px solid #e2e2e2;
+}
