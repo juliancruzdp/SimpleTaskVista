@@ -141,3 +141,12 @@ nav {
 #separador{
     border-right: 1px solid #e2e2e2;
 }
+
+.totales{
+    height: 50px;
+}
+.valores {   
+    border-radius: 30px;
+    background-color: #767475;
+    padding: 10px;
+}

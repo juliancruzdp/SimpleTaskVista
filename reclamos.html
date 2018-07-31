@@ -62,11 +62,11 @@
       <div class="row">
         <div id="separador" class="col-md-1 col-sm-12 p-2">
           <div>ID</div>
-          <div class="boxInput"><input placeholder="Id"></div>
+          <div class="boxInput p-1"><input placeholder="Id"></div>
         </div>
         <div id="separador" class="col-md-2 col-sm-12 p-2">
             <div>Telefono</div>
-            <div class="boxInput"><input placeholder="Teléfono"></div>
+            <div class="boxInput p-1"><input placeholder="Teléfono"></div>
         </div>
         <div id="separador" class="col-md-3 col-sm-12 p-2">
             <div><select class="btn btn-default dropdown-toggle" id="type_date" name="type_date"><option selected="selected" value="entry_date">Fecha entrada</option><option value="close_date">Fecha cierre</option></select></div>
@@ -77,48 +77,59 @@
         </div>
         <div id="separador" class="col-md-2 col-sm-12 p-2">
             <div>Estado</div>
-            <div><select id="filter_state" name="filter_state" class=" btn btn-default dropdown-toggle" onchange=""><option value="1">Pendiente</option><option value="2">Cerrado</option><option value="3">Baja</option><option value="4">Baja</option>
+            <div><select id="filter_state" name="filter_state" class=" btn btn-default dropdown-toggle p-1" onchange=""><option value="1">Pendiente</option><option value="2">Cerrado</option><option value="3">Baja</option><option value="4">Baja</option>
             </select></div>
 
         </div>
         <div id="separador" class="col-md-2 col-sm-12 p-2">
-            <div>ID</div>
-            <div><select id="filter_systemuser" name="filter_systemuser" class=" btn btn-default dropdown-toggle" onchange=""><option value="2">testcvt - testcvt</option><option value="5">gdr - gdr</option><option value="11">prueba - prueba</option><option value="12">fabian - gomez</option><option value="13">mario - fernandez</option><option value="14">sistema - sist</option><option value="15">nahuel - peralta</option>
+            <div>Operador</div>
+            <div><select id="filter_systemuser" name="filter_systemuser" class=" btn btn-default dropdown-toggle p-1" onchange=""><option value="2">testcvt - testcvt</option><option value="5">gdr - gdr</option><option value="11">prueba - prueba</option><option value="12">fabian - gomez</option><option value="13">mario - fernandez</option><option value="14">sistema - sist</option><option value="15">nahuel - peralta</option>
             </select></div>
         </div>
         <div id="separador" class="col-md-2 col-sm-12 p-2">
           <div class="row p-2">
-            <div class="col-6"><button class="btn btn-outline-success my-2 my-sm-0">Aplicar</button></div>
-            <div class="col-6"><button class="btn btn-outline-success my-2 my-sm-0">Limpiar</button></div>
+            <div class="col-md-6 col-sm-12"><button class="btn btn-outline-success my-2 my-sm-0 d-inline p-2">Aplicar</button></div>
+            <div class="col-md-6 col-sm-12"><button class="btn btn-outline-success my-2 my-sm-0 d-inline p-2">Limpiar</button></div>
             </div>
         </div>
       </div>
     </div>
+    </div>
+    </div>
 
+    <!-- Botones -->
 
-
-        <!-- <div class="col-md-4 col-sm-12 p-2">
-          <select class="btn btn-default dropdown-toggle" id="type_date" name="type_date"><option selected="selected" value="entry_date">Fecha entrada</option><option value="close_date">Fecha cierre</option></select>
-        </div>
-        <div class="col-md-2 col-sm-12 p-2">hola</div>
-        <div class="col-md-2 col-sm-12 p-2">hola</div>
-      </div>
+    <div class="container mt-2">
       <div class="row">
-          <div class="col-md-2 col-sm-12 p-2"><input placeholder="Id"></div>
-          <div class="col-md-2 col-sm-12 p-2"><input placeholder="Teléfono"></div>
-          <div class="col-md-4 col-sm-12 p-2">hola</div>
-          <div class="col-md-2 col-sm-12 p-2">hola</div>
-          <div class="col-md-2 col-sm-12 p-2">hola</div> -->
-          
+        <div class="col-md-4">
+          <button class="btn btn-outline-success my-2 my-sm-0 float-left mr-3">Baja</button>
+          <button class="btn btn-outline-success my-2 my-sm-0 float-left mr-3">Exportar</button>
+          <button class="btn btn-outline-success my-2 my-sm-0 float-left">Nuevo Reclamo</button>
         </div>
+        <div class="col-md-8"></div>
+      </div>
+      </div>
 
+    <!-- Totales -->
+
+    <div class="totales rounded container bg-white mt-5">
+      <div class="row">
+          <div class="col-md-3 align-middle"><span class="d-inline p-2">Pendiente</span><div class="ml-2 valores rounded d-inline">14</div></div>
+          <div class="col-md-3"><span class="d-inline p-2">Pendiente</span><div class="ml-2 valores rounded d-inline">14</div></div>
+          <div class="col-md-3"><span class="d-inline p-2">Pendiente</span><div class="ml-2 valores rounded d-inline">14</div></div>
+          <div class="col-md-3 float-right"><span class="d-inline p-2">Pendiente</span><div class="ml-2 valores rounded d-inline">14</div></div>
+
+     </div>
     </div>
 
     <!-- Mapa -->
-              <!-- <div class="container mt-5">
-                  <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d13400.092189089804!2d-68.84944758022459!3d-32.89755889999999!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sar!4v1532994906568" width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
-              </div> -->
+              <div class="container mt-5">
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d13400.092189089804!2d-68.84944758022459!3d-32.89755889999999!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sar!4v1532994906568" width="100%" height="300px" frameborder="0" style="border:0" allowfullscreen></iframe>
+              </div>
+    
+    
 
+    
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
