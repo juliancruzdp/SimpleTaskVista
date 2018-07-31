@@ -149,4 +149,15 @@ nav {
     border-radius: 30px;
     background-color: #767475;
     padding: 10px;
+    color:white;
+}
+
+.boxTotales{
+
+    height:80px;
+
+}
+
+.paneles{
+    background-color: #52a2da;
 }
