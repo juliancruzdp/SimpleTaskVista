@@ -15,7 +15,19 @@ h1{
     background-color: #ffffff !important;
 }
 
+.flex-parent{
+    display: -ms-flex;
+    display: -webkit-flex;
+    display: flex;
+  }
 
+ .flex-child{
+  display: -ms-flex;
+  display: -webkit-flex;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
 
 /*----------------------------------------------*/
 /* Nav Bar                                      */
@@ -142,8 +154,12 @@ nav {
     border-right: 1px solid #e2e2e2;
 }
 
-.totales{
-    height: 50px;
+.pendiente{
+
+    padding: 20px 0px 20px 0px;
+    text-align: center;
+
+  
 }
 .valores {   
     border-radius: 30px;
@@ -153,8 +169,6 @@ nav {
 }
 
 .boxTotales{
-
-    height:80px;
 
 }
 
